@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Programa_final</class>
+ <widget class="QDialog" name="Programa_final">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Programa_final</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* Fondo general del diálogo */
+QDialog {
+    background-color: #f4f6f8;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 10pt;
+}
+
+/* Etiquetas */
+QLabel {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Campos de texto */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe3;
+    border-radius: 6px;
+    padding: 6px 8px;
+    selection-background-color: #4a90e2;
+    selection-color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4a90e2;
+}
+
+/* Botones */
+QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #3b7dc4;
+}
+
+QPushButton:pressed {
+    background-color: #2f5f94;
+}
+
+QPushButton:disabled {
+    background-color: #cfd6dd;
+    color: #7a8a99;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Caso prueba 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Caso prueba 2</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>r_xy</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resRxy">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>r2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resR2">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>tail área</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resTail">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>B0</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resB0">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>b1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resB1">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>yk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resYk">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>range</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resRange">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>UPI</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resUpi">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>LPI</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="resLpi">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
